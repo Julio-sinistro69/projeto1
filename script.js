@@ -1,20 +1,28 @@
 
 let rodada = 0;
 let maxima_rod = 7;
+let resultado
 
-function comecarJogo() {
-rodada = 0
+function comecarJogo(escolha, ) {
+    rodada = 0
 }
+
 function pedra(){
-    let pedra = 1;
-    alert("skibidi");
+    comecarJogo("pedra");
 }
-    function tesoura() {
-        let tesoura = 2;   
-        alert("tesoura");
+
+function tesoura() {
+        comecarJogo("tesoura");
+}
+function papel() {
+            comecarJogo("papel"); 
     }
-        function papel() {
-            let papel = 3 ; 
-            alert("ddd");  
+function maquina() {
+            Math.random()
+            const rng = Math.floor(Math.random() * 3) + 1;   
         }
-            
+        function comparar() {
+            if (resultado ) {
+                
+            }
+        }
